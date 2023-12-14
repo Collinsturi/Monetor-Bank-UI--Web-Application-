@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Home</title>
+</head>
+<nav class="nav-bar">
+    <img src="./images/logo.png" alt="" />
+    <div class="nav-items justify-content-end">
+        <a href="#about">About</a>
+        <a href="#footer">Contact</a>
+        <a href="#blog">Blog</a>
+        <a th:href="#login">Log in</a>
+    </div>
+</nav>
+<body>
+    <section >
+        <div class="container mt-3">
+          <div class="main">
+            <p class="sign" align="center">Sign in</p>
+            <form class="form1" role="form" method="post" th:action="@{/user/login}" th:object="${customer}">
+              <input class="un form-control" name="email" type="email" align="center"  th:field="*{email}" placeholder="Email">
+              <input class="pass form-control" name="password" type="password" align="center" th:field="*{password}" placeholder="Password">
+              <button class="submit" align="center">Sign in</button>
+              <p class="forgot" align="center"><a href="#">Forgot Password?</a></p>
+              <div th:if="${errorMessage}" class="alert alert-danger" role="alert">
+                <p th:text="${errorMessage}"></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <button onclick="loadDashBoard()">Dashboard</button>
+
+      <script>
+        this.loadDashBoard = function(){
+          location.href= "./LoggedInUser/Dashboard.html";
+        }
+      </script>
+</body>
+<footer class="footer" id="footer">
+    <div class="footer-container">
+        <div class="social-container">
+            <img src="./images/icon-facebook.svg" alt="" />
+            <img src="./images/icon-instagram.svg" alt="" />
+            <img src="./images/icon-twitter.svg" alt="" />
+            <img src="./images/icon-pinterest.svg" alt="" />
+        </div>
+        <div class="menu">
+            <a href="#">About us</a>
+            <a href="#">Contact us</a>
+            <a href="#">Blog</a>
+        </div>
+        <div class="menu">
+            <a href="#">Carriers</a>
+            <a href="#">Support</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+        <button>Request Invite</button>
+    </div>
+</footer>
+</html>
