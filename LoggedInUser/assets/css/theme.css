@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
+    --bs-marble: #F2F8FC;
     --bs-blue: #63b3ed;
     --bs-indigo: #596cff;
     --bs-purple: #6f42c1;
@@ -63,7 +64,7 @@ body {
     font-size: 1rem;
     line-height: 1.5;
     color: var(--bs-body-color);
-    background-color: #fff;
+    background-color:var(--bs-marble);
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -4029,7 +4030,7 @@ fieldset:disabled .btn {
 }
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
-    color: #495057;
+    color: #123a15;
     background-color: #fff;
     border-color: #dee2e6 #dee2e6 #fff;
 }
