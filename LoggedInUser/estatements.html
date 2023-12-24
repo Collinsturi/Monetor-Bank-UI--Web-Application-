@@ -64,7 +64,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="./cards.html">
+                    <a class="nav-link " href="./cards.html">
                         <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
                             <svg width="12px" height="12px" viewBox="0 0 43 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <title>credit-card</title>
@@ -80,7 +80,7 @@
                                 </g>
                             </svg>
                         </div>
-                        <span class="nav-link-text ms-1" >My cards</span>
+                        <span class="nav-link-text ms-1" style="color: #FFF;">My cards</span>
                     </a>
                 </li>
                 <li class="nav-item">
@@ -105,7 +105,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link  " href="./profile.html">
+                    <a class="nav-link " href="./profile.html">
                         <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
                             <svg width="12px" height="12px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <title>settings</title>
@@ -131,7 +131,7 @@
                     <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">Account Actions</h6>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link  " href="./reports.html">
+                    <a class="nav-link  active" href="./reports.html">
                         <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
                             <svg width="12px" height="12px" viewBox="0 0 46 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <title>customer-support</title>
@@ -148,7 +148,7 @@
                                 </g>
                             </svg>
                         </div>
-                        <span class="nav-link-text ms-1" style="color: #FFF;">Reports</span>
+                        <span class="nav-link-text ms-1" >Reports</span>
                     </a>
                 </li>
                 <li class="nav-item">
@@ -342,7 +342,7 @@
 
 
                 
-            <div class="modal fade" id="chatModal" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none !important;" aria-hidden="true">
+            <div class="modal fade" id="chatModal" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -351,7 +351,7 @@
                                 <span aria-hidden="true">×</span>
                             </button>
                         </div>
-                        <div class="modal-body col-12 col-xl-4 mb-4" style="width: calc(100% - 4px) !important; padding: 2px !important;">
+                        <div class="modal-body col-12 col-xl-4 mb-4" style="width: calc(100% - 4px); padding: 2px;">
                             <div class="card h-100" >
                                 <div class="card-header pb-0 p-3">
                                     <h6 class="mb-0">Conversations</h6>
@@ -419,6 +419,7 @@
                 </div>
             </div>
 
+            
 
         <a data-bs-toggle="modal" data-bs-target="#chatModal" class="float">
             <i class="fas fa-comment my-float" ></i>
@@ -441,406 +442,253 @@
             .my-float{
                 margin-top:22px;
             }
-
         </style>
-        
-        <div class="card-container">
-            <div class="container-fluid pt-3" style="text-align: center;">
-                <div class="credit-card" style="background-color: #000000; display: inline-block;width: 20%; height: 20%;">
-                    <div class="card__info">
-                        <div class="card__logo">Monetor</div>
-                        <div class="card__chip">
-                            <svg class="card__chip-lines" role="img" width="80px" height="80px" viewBox="0 0 100 100" aria-label="Chip">
-                                <g opacity="0.8">
-                                    <polyline points="0,50 35,50" fill="none" stroke="#000" stroke-width="2" />
-                                    <polyline points="0,20 20,20 35,35" fill="none" stroke="#000" stroke-width="2" />
-                                    <polyline points="50,0 50,35" fill="none" stroke="#000" stroke-width="2" />
-                                    <polyline points="65,35 80,20 100,20" fill="none" stroke="#000" stroke-width="2" />
-                                    <polyline points="100,50 65,50" fill="none" stroke="#000" stroke-width="2" />
-                                    <polyline points="35,35 65,35 65,65 35,65 35,35" fill="none" stroke="#000" stroke-width="2" />
-                                    <polyline points="0,80 20,80 35,65" fill="none" stroke="#000" stroke-width="2" />
-                                    <polyline points="50,100 50,65" fill="none" stroke="#000" stroke-width="2" />
-                                    <polyline points="65,65 80,80 100,80" fill="none" stroke="#000" stroke-width="2" />
-                                </g>
-                            </svg>
-                            <div class="card__chip-texture"></div>
-                        </div>
-                        <div class="card__type">debit</div>
-                        <div class="card__number">
-                            <span class="card__digit-group">0400</span>
-                            <span class="card__digit-group">0021</span>
-                            <span class="card__digit-group">4748</span>
-                            <span class="card__digit-group">3647</span>
-                        </div>
-                        <div class="card__valid-thru" aria-label="Valid thru">Valid<br>thru</div>
-                        <div class="card__exp-date"><time datetime="2038-01">01/38</time></div>
-                        <div class="card__name" aria-label="Dee Stroyer">John Doe</div>
-                        <div class="card__vendor" role="img" aria-labelledby="card-vendor">
-                            <span id="card-vendor" class="card__vendor-sr">Mastercard</span>
+        <div class="container-fluid pt-3">
+            <div class="card mb-4">
+                <div class="card-header pb-0">
+                    <h6>Recent transactions</h6>
+                </div>
+                <div class="card-body px-0 pt-0 pb-2">
+                    <div class="table-responsive p-0">
+                        <table class="table align-items-center mb-0">
+                            <thead>
+                                <tr>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Name</th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Category</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Status</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Amount</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">points</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Date</th>
+                                    <th class="text-secondary opacity-7"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="d-flex px-2 py-1">
+                                            <div>
+                                                <img src="https://demos.creative-tim.com/soft-ui-dashboard/assets/img/team-2.jpg" class="avatar avatar-sm me-3">
+                                            </div>
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <h6 class="mb-0 text-sm">John Michael</h6>
+                                                <p class="text-xs text-secondary mb-0">014636770264</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p class="text-xs font-weight-bold mb-0">General</p>
+                                        <p class="text-xs text-secondary mb-0">School fees</p>
+                                    </td>
+                                    <td class="align-middle text-center text-sm">
+                                        <span class="badge badge-sm bg-gradient-success">APPROVED</span>
+                                    </td>
+                                    <td class="align-middle text-center">
+                                        <span class="text-secondary text-xs font-weight-bold">KES 405602</span>
+                                    </td>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">400</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">11/01/19</th>
+                                    <td class="align-middle">
+                                        <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
+                                            View
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="d-flex px-2 py-1">
+                                            <div>
+                                                <img src="https://demos.creative-tim.com/soft-ui-dashboard/assets/img/team-3.jpg" class="avatar avatar-sm me-3">
+                                            </div>
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <h6 class="mb-0 text-sm">Alexa Liras</h6>
+                                                <p class="text-xs text-secondary mb-0">017347657</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p class="text-xs font-weight-bold mb-0">Shopping</p>
+                                        <p class="text-xs text-secondary mb-0">Mid month shopping</p>
+                                    </td>
+                                    <td class="align-middle text-center text-sm">
+                                        <span class="badge badge-sm bg-gradient-secondary">APPROVED</span>
+                                    </td>
+                                    <td class="align-middle text-center">
+                                        <span class="text-secondary text-xs font-weight-bold">KES 564763</span>
+                                    </td>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">35</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">11/01/19</th>
+                                    <td class="align-middle">
+                                        <a href="#!" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
+                                            View
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="d-flex px-2 py-1">
+                                            <div>
+                                                <img src="https://demos.creative-tim.com/soft-ui-dashboard/assets/img/team-4.jpg" class="avatar avatar-sm me-3">
+                                            </div>
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <h6 class="mb-0 text-sm">Laurent Perrier</h6>
+                                                <p class="text-xs text-secondary mb-0">01472395</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p class="text-xs font-weight-bold mb-0">General</p>
+                                        <p class="text-xs text-secondary mb-0">money here and there</p>
+                                    </td>
+                                    <td class="align-middle text-center text-sm">
+                                        <span class="badge badge-sm bg-gradient-success">PENDING</span>
+                                    </td>
+                                    <td class="align-middle text-center">
+                                        <span class="text-secondary text-xs font-weight-bold">KES 798455</span>
+                                    </td>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">568</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">11/01/19</th>
+                                    <td class="align-middle">
+                                        <a href="#!" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
+                                            View
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="d-flex px-2 py-1">
+                                            <div>
+                                                <img src="https://demos.creative-tim.com/soft-ui-dashboard/assets/img/team-3.jpg" class="avatar avatar-sm me-3">
+                                            </div>
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <h6 class="mb-0 text-sm">Michael Levi</h6>
+                                                <p class="text-xs text-secondary mb-0">01784639275</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p class="text-xs font-weight-bold mb-0">School Fees</p>
+                                        <p class="text-xs text-secondary mb-0">Son school fees</p>
+                                    </td>
+                                    <td class="align-middle text-center text-sm">
+                                        <span class="badge badge-sm bg-gradient-success">REJECTED</span>
+                                    </td>
+                                    <td class="align-middle text-center">
+                                        <span class="text-secondary text-xs font-weight-bold">KES 464735</span>
+                                    </td>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">0</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">24/12/08</th>
+                                    <td class="align-middle">
+                                        <a href="#!" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
+                                            View
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="d-flex px-2 py-1">
+                                            <div>
+                                                <img src="https://demos.creative-tim.com/soft-ui-dashboard/assets/img/team-2.jpg" class="avatar avatar-sm me-3">
+                                            </div>
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <h6 class="mb-0 text-sm">Richard Gran</h6>
+                                                <p class="text-xs text-secondary mb-0">0143792143</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p class="text-xs font-weight-bold mb-0">School Fees</p>
+                                        <p class="text-xs text-secondary mb-0">Wife's Degree Fees</p>
+                                    </td>
+                                    <td class="align-middle text-center text-sm">
+                                        <span class="badge badge-sm bg-gradient-secondary">APPROVED</span>
+                                    </td>
+                                    <td class="align-middle text-center">
+                                        <span class="text-secondary text-xs font-weight-bold">KES 2356754</span>
+                                    </td>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">230</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">04/10/21</th>
+                                    <td class="align-middle">
+                                        <a href="#!" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
+                                            View
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="d-flex px-2 py-1">
+                                            <div>
+                                                <img src="https://demos.creative-tim.com/soft-ui-dashboard/assets/img/team-4.jpg" class="avatar avatar-sm me-3">
+                                            </div>
+                                            <div class="d-flex flex-column justify-content-center">
+                                                <h6 class="mb-0 text-sm">Miriam Eric</h6>
+                                                <p class="text-xs text-secondary mb-0">014567898765</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <p class="text-xs font-weight-bold mb-0">Shopping and Beverage</p>
+                                        <p class="text-xs text-secondary mb-0">House party</p>
+                                    </td>
+                                    <td class="align-middle text-center text-sm">
+                                        <span class="badge badge-sm bg-gradient-secondary">APPROVED</span>
+                                    </td>
+                                    <td class="align-middle text-center">
+                                        <span class="text-secondary text-xs font-weight-bold">KES 4567543</span>
+                                    </td>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">594</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">24/12/08</th>
+                                    <td class="align-middle">
+                                        <a href="#!" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
+                                            View
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid pt-3">
+            <div class="card mb-4">
+                <div class="card-header pb-0">
+                    <h6>Generate E-statements</h6>
+                </div>
+                
+                <!-- New Row for Start Date and End Date -->
+                <div class="row mt-3 ms-3" >
+                    <div class="col-md-5">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <label for="startDate">Start Date:</label>
+                            </div>
+                            <div class="col-md-8">
+                                <input style="width: 75%;" type="date" id="startDate" name="startDate" class="form-control">
+                            </div>
                         </div>
                     </div>
-                    <div class="card__texture"></div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <label for="endDate">End Date:</label>
+                            </div>
+                            <div class="col-md-8">
+                                <input style="width: 100%;" type="date" id="endDate" name="endDate" class="form-control">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                
-                
-                <style>
-                    .credit-card,
-                    .card__chip {
-                        overflow: hidden;
-                        position: relative;
-                    }
-                    .credit-card,
-                    .card__chip-texture,
-                    .card__texture {
-                        animation-duration: 3s;
-                        animation-timing-function: ease-in-out;
-                        animation-iteration-count: infinite;
-                    }
-                    .credit-card {
-                        animation-name: rotate;
-                        background-color: var(--primary);
-                        background-image:
-                            radial-gradient(circle at 100% 0%,hsla(0,0%,100%,0.08) 29.5%,hsla(0,0%,100%,0) 30%),
-                            radial-gradient(circle at 100% 0%,hsla(0,0%,100%,0.08) 39.5%,hsla(0,0%,100%,0) 40%),
-                            radial-gradient(circle at 100% 0%,hsla(0,0%,100%,0.08) 49.5%,hsla(0,0%,100%,0) 50%);
-                        border-radius: 0.5em;
-                        box-shadow:
-                            0 0 0 hsl(0,0%,80%),
-                            0 0 0 hsl(0,0%,100%),
-                            -0.2rem 0 0.75rem 0 hsla(0,0%,0%,0.3);
-                        color: hsl(0,0%,100%);
-                        width: 30.3em;
-                        height: 30.8em;
-                        transform: translate3d(0,0,0);
-                    }
-                    .card__info,
-                    .card__chip-texture,
-                    .card__texture {
-                        position: absolute;
-                    }
-                    .card__chip-texture,
-                    .card__texture {
-                        animation-name: texture;
-                        top: 0;
-                        left: 0;
-                        width: 200%;
-                        height: 100%;
-                    }
-                    .card__info {
-                        font: 1.45em/1 "DM Sans", sans-serif;
-                        display: flex;
-                        align-items: center;
-                        flex-wrap: wrap;
-                        padding: 0.75rem;
-                        inset: 0;
-                    }
-                    .card__logo,
-                    .card__number {
-                        width: 100%;
-                    }
-                    .card__logo {
-                        font-weight: bold;
-                        font-style: italic;
-                    }
-                    .card__chip {
-                        background-image: linear-gradient(hsl(0,0%,70%),hsl(0,0%,80%));
-                        border-radius: 0.2rem;
-                        box-shadow: 0 0 0 0.05rem hsla(0,0%,0%,0.5) inset;
-                        width: 2.25rem;
-                        height: 2.25rem;
-                        transform: translate3d(0,0,0);
-                    }
-                    .card__chip-lines {
-                        width: 100%;
-                        height: auto;
-                    }
-                    .card__chip-texture {
-                        background-image: linear-gradient(-80deg,hsla(0,0%,100%,0),hsla(0,0%,100%,0.6) 48% 52%,hsla(0,0%,100%,0));
-                    }
-                    .card__type {
-                        align-self: flex-end;
-                        margin-left: auto;
-                    }
-                    .card__digit-group,
-                    .card__exp-date,
-                    .card__name {
-                        background: linear-gradient(hsl(0,0%,100%),hsl(0,0%,85%) 15% 55%,hsl(0,0%,70%) 70%);
-                        -webkit-background-clip: text;
-                        -webkit-text-fill-color: transparent;
-                        font-family: "Courier Prime", monospace;
-                        filter: drop-shadow(0 0.05rem hsla(0,0%,0%,0.3));
-                    }
-                    .card__number {
-                        font-size: 1.0rem;
-                        display: flex;
-                        justify-content: space-between;
-                    }
-                    .card__valid-thru,
-                    .card__name {
-                        text-transform: uppercase;
-                    }
-                    .card__valid-thru,
-                    .card__exp-date {
-                        margin-bottom: 0.25rem;
-                        width: 50%;
-                    }
-                    .card__valid-thru {
-                        font-size: 0.3rem;
-                        padding-right: 0.25rem;
-                        text-align: right;
-                    }
-                    .card__exp-date,
-                    .card__name {
-                        font-size: 1.0rem;
-                    }
-                    .card__exp-date {
-                        padding-left: 0.25rem;
-                    }
-                    .card__name {
-                        overflow: hidden;
-                        white-space: nowrap;
-                        text-overflow: ellipsis;
-                        width: 6.25rem;
-                    }
-                    .card__vendor,
-                    .card__vendor:before,
-                    .card__vendor:after {
-                        position: absolute;
-                    }
-                    .card__vendor {
-                        right: 0.375rem;
-                        bottom: 0.375rem;
-                        width: 2.55rem;
-                        height: 1.5rem;
-                    }
-                    .card__vendor:before,
-                    .card__vendor:after {
-                        border-radius: 50%;
-                        content: "";
-                        display: block;
-                        top: 0;
-                        width: 1.5rem;
-                        height: 1.5rem;
-                    }
-                    .card__vendor:before {
-                        background-color: #e71d1a;
-                        left: 0;
-                    }
-                    .card__vendor:after {
-                        background-color: #fa5e03;
-                        box-shadow: -1.05rem 0 0 #f59d1a inset;
-                        right: 0;
-                    }
-                    .card__vendor-sr {
-                        clip: rect(1px,1px,1px,1px);
-                        overflow: hidden;
-                        position: absolute;
-                        width: 1px;
-                        height: 1px;
-                    }
-                    .card__texture {
-                        animation-name: texture;
-                        background-image: linear-gradient(-80deg,hsla(0,0%,100%,0.3) 25%,hsla(0,0%,100%,0) 45%);
-                    }
-
-                    /* Dark theme */
-                    @media (prefers-color-scheme: dark) {
-                        :root {
-                            --bg: hsl(var(--hue),10%,30%);
-                            --fg: hsl(var(--hue),10%,90%);
-                        }
-                    }
-
-                    /* Animation */
-                    @keyframes rotate {
-                        from,
-                        to {
-                            animation-timing-function: ease-in;
-                            box-shadow:
-                                0 0 0 hsl(0,0%,80%),
-                                0.1rem 0 0 hsl(0,0%,100%),
-                                -0.2rem 0 0.75rem 0 hsla(0,0%,0%,0.3);
-                            transform: rotateY(-10deg);
-                        }
-                        25%,
-                        75% {
-                            animation-timing-function: ease-out;
-                            box-shadow:
-                                0 0 0 hsl(0,0%,80%),
-                                0 0 0 hsl(0,0%,100%),
-                                -0.25rem -0.05rem 1rem 0.15rem hsla(0,0%,0%,0.3);
-                            transform: rotateY(0deg);
-                        }
-                        50% {
-                            animation-timing-function: ease-in;
-                            box-shadow:
-                                -0.1rem 0 0 hsl(0,0%,80%),
-                                0 0 0 hsl(0,0%,100%),
-                                -0.3rem -0.1rem 1.5rem 0.3rem hsla(0,0%,0%,0.3);
-                            transform: rotateY(10deg);
-                        }
-                    }
-                    @keyframes texture {
-                        from,
-                        to {
-                            transform: translate3d(0,0,0);
-                        }
-                        50% {
-                            transform: translate3d(-50%,0,0);
-                        }
-                    }
-                </style>
-            </div>
-
-        </div>
-        <style>
-            .card-container{
-                padding: 3%;
-                margin: 2%;
-                border-radius: 30px;
-                background: lightgrey;
-                box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
-
-                scroll-behavior: smooth;
-                overflow-y: hidden;
-                overflow-x: auto;
-                scrollbar-face-color: #999;
-            }
-        </style>
-
-        <div class="card-info-container">
-            <div class="title">Card Details</div>
-
-            <div class="deets">
-                <div class="grid-container">
-                    <label class="grid-item1">Account number</label>
-                    <p class="grid-item2">0120-2466-2563-6352</p>
-                    <label class="grid-item3">CardHolder Name</label>
-                    <p class="grid-item4">John Doe</p>
-                    <label class="grid-item5">Card Type</label>
-                    <p class="grid-item6">Visa</p>
-                    <label class="grid-item7">CVV</label>
-                    <p class="grid-item8">566</p>
-                    <label class="grid-item9">Expiry Date</label>
-                    <p class="grid-item10">02/30</p>
+        
+                <!-- Button on a New Line, Aligned to the Right -->
+                <div class="row mt-3 me-5">
+                    <div class="col-md-12 text-md-end">
+                        <button type="button" class="btn btn-primary">Request</button>
+                    </div>
                 </div>
             </div>
-
-            <style>
-                .card-info-container{
-                    padding: 3%;
-                    margin: 2%;
-                    border-radius: 30px;
-                    background: rgb(255, 255, 255);
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center; /* Centers horizontally */
-                    justify-content: center;
-                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
-                }
-                .deets {
-                    display: grid;
-                    column-gap: 2%;
-                    row-gap: 2%;
-                    justify-content: center; /* Center items horizontally */
-                    align-items: center; /* Center items vertically */
-                    flex-wrap: wrap;
-                    width: 100%;
-                    margin: auto; /* Add margin auto to center within the container */
-                    max-width: 600px; /* Adjust the max-width as needed */
-                }
-
-                .grid-container {
-                    display: grid;
-                    grid-template-columns: 150px auto; 
-                    grid-gap: 10px; 
-                }
-
-                /* Styling for labels */
-                label {
-                    font-weight: bold;
-                }
-
-                /* Assigning grid positions for each item */
-                .grid-item1 {
-                    grid-column: 1 / 2;
-                    grid-row: 1 / 2;
-                }
-
-                .grid-item2 {
-                    grid-column: 2 / 3;
-                    grid-row: 1 / 2;
-
-                }
-
-                .grid-item3 {
-                    grid-column: 1 / 2;
-                    grid-row: 2 / 3;
-                }
-
-                .grid-item4 {
-                    grid-column: 2 / 3;
-                    grid-row: 2 / 3;
-                }
-
-                .grid-item5 {
-                    grid-column: 1 / 2;
-                    grid-row: 3 / 4;
-                }
-
-                .grid-item6 {
-                    grid-column: 2 / 3;
-                    grid-row: 3 / 4;
-                }
-
-                .grid-item7 {
-                    grid-column: 1 / 2;
-                    grid-row: 4 / 5;
-                }
-
-                .grid-item8 {
-                    grid-column: 2 / 3;
-                    grid-row: 4 / 5;
-                }
-
-                .grid-item9 {
-                    grid-column: 1 / 2;
-                    grid-row: 5 / 6;
-                }
-
-                .grid-item10 {
-                    grid-column: 2 / 3;
-                    grid-row: 5 / 6;
-                }
-            </style>
         </div>
-
-        <div class="card-details-btn">
-            <button class="btn-card-details">Edit card Details</button>
-            <button class="btn-link-card">Link new card</button>
-        </div>
-
-        <style>
-            .card-details-btn{
-                display: flex;
-                justify-content: center;
-            }
-
-            .btn-link-card{
-                margin-left: 20%;
-                background-color: #0C9;
-                border-radius: .6rem;
-                color: white;
-                border-color: white ;
-            }
-
-            .btn-card-details{
-                background-color: #0C9;
-                border-radius: .6rem ;
-                color: white;
-                border-color: white;
-            }
-        </style>
         <footer class="footer pt-3 pb-4">
             <div class="container-fluid">
                 <div class="row align-items-center justify-content-lg-between">
